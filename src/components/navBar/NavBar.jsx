@@ -4,15 +4,7 @@ import Image from "next/image";
 import NavLinks from "./NavLinks";
 import logo from "@/assets/logo.webp";
 import Hambourger from "./Hambourger";
-import {
-  MapPin,
-  Clock,
-  Phone,
-  Facebook,
-  Twitter,
-  Linkedin,
-  Instagram,
-} from "lucide-react";
+
 
 export default function NavBar() {
   return (

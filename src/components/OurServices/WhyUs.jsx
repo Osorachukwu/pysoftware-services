@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 import photoOne from "@/assets/edu_photo.jpeg";
 import {
-  ArrowRight,
   DraftingCompass,
   Check,
   Headset,

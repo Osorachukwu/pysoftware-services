@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "./Card";
-import Image from "next/image";
 import photoOne from "@/assets/edu_photo.jpeg";
 
 export default function OurServices() {

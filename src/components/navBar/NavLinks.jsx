@@ -2,10 +2,8 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { ChevronDown, ArrowRight } from "lucide-react";
 
 export default function NavLinks() {
-  const [dropDownOne, setDropDownOne] = useState(false);
   const pathname = usePathname();
 
   const links = [

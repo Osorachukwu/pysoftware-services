@@ -3,7 +3,6 @@ import React, { useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import Card from "@/components/testimonial/Card";
-import Testimonial from "../testimonial/Testimonial";
 import {
    ChevronRight,
    ChevronLeft
@@ -62,9 +61,9 @@ export function EmblaCarousel() {
         <div className="embla__viewport py-5" ref={emblaRef}>
           <div className="embla__container">
             {testimonialCardDetails.map((item, i) => (
-              <div className="embla__slide">
+              <div className="embla__slide" key={i}>
                 <Card
-                  key={i}
+                  
                   testifierPhoto={item.testifierPhoto}
                   testifierNname={item.testifierNname}
                   testifierOccupation={item.testifierOccupation}

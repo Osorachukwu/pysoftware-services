@@ -1,4 +1,3 @@
-import Image from "next/image";
 import OurServices from "@/components/OurServices/OurServices";
 import WhyUS from '@/components/OurServices/WhyUs';
 import Testimonial from '@/components/testimonial/Testimonial'

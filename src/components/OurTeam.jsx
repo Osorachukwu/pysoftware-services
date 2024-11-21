@@ -4,7 +4,7 @@ import Link from "next/link";
 import teamOne from "@/assets/woman-smiling-portrait.jpg";
 // import xtwitter from "@/assets/xtwitter-white.svg";
 
-import { Facebook, Twitch, Instagram, Twitter } from "lucide-react";
+import { Facebook, Instagram } from "lucide-react";
 
 export default function OurTeam() {
   const teamMembers = [
