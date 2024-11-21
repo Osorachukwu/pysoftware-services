@@ -28,7 +28,7 @@ export default function NavBar() {
               alt="Logo"
               className="h-full w-8 lg:h-16 lg:w-16 rounded-full"
             />
-            <span className="text-green-500">Pysoftware</span>
+            <span className="text-gray-600">Pysoftware</span>
           </Link>
         </div>
         <NavLinks />

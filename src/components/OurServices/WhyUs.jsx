@@ -36,7 +36,7 @@ export default function WhyUs() {
     <div>
       <div className="flex flex-col md:flex-row mx-auto px-4">
         <div className="text-start lg:text-lg md:w-[50%] py-10 px-3 md:py-10 md:px-16 bg-slate-100">
-          <p className="text-green-500 font-semibold">Why Choose Us</p>
+          <p className="text-blue-700 font-semibold">Why Choose Us</p>
           <p className="text-xl py-2 font-bold lg:text-3xl">
             Lorem ipsum dolor <br /> sit amet consectetur adipisicing elit.
           </p>
@@ -49,7 +49,7 @@ export default function WhyUs() {
           <div className="grid gap-5 grid-cols-2">
             {whyChooseUs.map((item, i) => (
               <div key={i} className="flex items-center gap-2 md:gap-5">
-                <div className="bg-green-500 border-2 h-8 min-w-8 rounded-full flex justify-center items-center">
+                <div className="bg-blue-700 border-2 h-8 min-w-8 rounded-full flex justify-center items-center">
                   {item.image}
                 </div>
                 <div>

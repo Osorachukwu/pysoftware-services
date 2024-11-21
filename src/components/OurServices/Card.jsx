@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Card({cardImage, cardTitle, cardDescription, linkUrl}) {
   return (
     <div>
-      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow ">
+      <div className="custom-shadow max-w-sm bg-white rounded-lg shadow hover:shadow-xl">
         <a href="#">
           <Image
             className="rounded-t-lg h-72 w-full"

@@ -52,7 +52,7 @@ export default function OurServices() {
   return (
     <div className="container px-4 xl:px-20 mx-auto py-10">
       <div className="text-center text-lg font-semibold pb-16">
-        <p className="text-green-500 font-semibold">Our Services</p>
+        <p className="text-blue-700 font-semibold">Our Services</p>
         <p className="text-xl py-2 font-bold lg:text-3xl">
           We Are Pioneers In The World Of <br /> Education
         </p>
@@ -73,4 +73,3 @@ export default function OurServices() {
   );
 }
 
-// dark:bg-gray-800 dark:border-gray-700

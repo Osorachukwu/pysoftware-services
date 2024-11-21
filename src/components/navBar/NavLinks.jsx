@@ -23,7 +23,7 @@ export default function NavLinks() {
           <Link
             key={i}
             href={link.path}
-            className={`${pathname === link.path ? "text-green-500" : ""} hover:text-green-500`}
+            className={`${pathname === link.path ? "text-blue-700" : ""} hover:text-blue-800`}
           >
             {link.title}
           </Link>
