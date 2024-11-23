@@ -1,0 +1,62 @@
+{
+    "customers": [
+      {
+        "id": 1,
+        "firstName": "John",
+        "lastName": "Doe",
+        "street": "123 Main St",
+        "postcode": "12345",
+        "state": "CA",
+        "country": "USA"
+      },
+      {
+        "id": 2,
+        "firstName": "Jane",
+        "lastName": "Doe",
+        "street": "456 Elm St",
+        "postcode": "67890",
+        "state": "NY",
+        "country": "USA"
+      }
+    ],
+    "menuItems": [
+    {
+      "id": 1,
+      "menuItem": "Home",
+      "href": "/home"
+    },
+    {
+      "id": 2,
+      "menuItem": "Student",
+      "href": "/students"
+    },
+    { "id": 3,
+     "menu_item": "login", 
+     "href": "login /"
+    },
+    { "id ": 4,
+    "menu_item": "tutor",
+    "href": "tutor /"
+    },
+  { "id ": 5,
+  "menu_item": "pricing",
+  "href": "price_list /"},
+  { "id ": 6, 
+  "menu_item": "sign - up",
+  "href": "signup /"
+  },
+  { "id ": 7,
+  "menu_item": "contact",
+  "href": "contact /"
+  },
+  { "id ": 7,
+  "menu_item": "help",
+  "href": "help /"
+  },
+  { "id ": 6,
+  "menu_item": "about",
+  "href": "about /"
+  }
+  ]
+}
+  

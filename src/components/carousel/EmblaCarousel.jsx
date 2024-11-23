@@ -47,11 +47,11 @@ export function EmblaCarousel() {
 
   return (
     <div className="py-20">
-      <div class="max-w-2xl mx-auto text-center mb-8">
-        <h2 class="text-gray-800 text-3xl font-extrabold">
+      <div className="max-w-2xl mx-auto text-center mb-8">
+        <h2 className="text-gray-800 text-3xl font-extrabold">
           What our happy client say
         </h2>
-        <p class="text-gray-800 text-sm mt-4 leading-relaxed">
+        <p className="text-gray-800 text-sm mt-4 leading-relaxed">
           Veniam proident aute magna anim excepteur et ex consectetur velit
           ullamco veniam minim aute sit. Elit occaecat officia et laboris Lorem
           minim. Officia do aliqua adipisicing ullamco in.
